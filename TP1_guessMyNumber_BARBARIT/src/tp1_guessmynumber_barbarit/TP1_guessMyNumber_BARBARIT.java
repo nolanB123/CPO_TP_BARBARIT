@@ -20,7 +20,7 @@ public class TP1_guessMyNumber_BARBARIT {
         Random generateurAleat = new Random();
         Scanner sc = new Scanner(System.in);
         int nalea = generateurAleat.nextInt(100);
-        System.out.println("Saisissez la diificulte que vous souhaitez :\n1) Facile\n2) Moyen\n3) Difficile\n4)Cauchemar");
+        System.out.println("Saisissez la diificulte que vous souhaitez :\n1) Facile\n2) Moyen\n3) Difficile\n4) Cauchemar");
         int diff = sc.nextInt();
         System.out.println("Devinez le nombre entre 0 et 100");
         int nuser = sc.nextInt();
