@@ -12,8 +12,8 @@ public class Personne {
 
     private String nom;
     private String prénom;
-    private int nbVoitures;
-    private Voiture[] liste_voitures;
+    int nbVoitures;
+    Voiture[] liste_voitures;
 
     public Personne(String nom, String prénom) {
         this.nom = nom;
@@ -39,6 +39,10 @@ public class Personne {
         return true;
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public String toString() {
         return "Personne [nom=" + nom + ", prénom=" + prénom + "]";
