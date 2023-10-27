@@ -19,8 +19,9 @@ public class LightOff_BARBARIT_version_console {
         
         
         GrilleDeJeu nouvelle_grille = new GrilleDeJeu(6,6);
-        nouvelle_grille.melangerMatriceAleatoirement(8);
-        System.out.println(nouvelle_grille);
+        Partie nouvelle_partie =new Partie (nouvelle_grille);
+        nouvelle_partie.initialiserPartie();
+        nouvelle_partie.lancerPartie();
     }
     
 }
