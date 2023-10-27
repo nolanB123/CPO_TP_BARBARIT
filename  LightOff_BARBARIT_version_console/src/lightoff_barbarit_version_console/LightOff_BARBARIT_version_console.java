@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package lightoff_barbarit_version_console;
-
+import lightoff_barbarit_version_console.*;
 /**
  *
  * @author Utilisateur
@@ -15,11 +15,12 @@ public class LightOff_BARBARIT_version_console {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        CelluleLumineuse lumiere1 = new CelluleLumineuse();
-        CelluleLumineuse lumiere2 = new CelluleLumineuse();
-        System.out.println(lumiere1);
-        lumiere2.activerCellule();
-        System.out.println(lumiere2);
+        
+        
+        
+        GrilleDeJeu nouvelle_grille = new GrilleDeJeu(6,6);
+        nouvelle_grille.melangerMatriceAleatoirement(8);
+        System.out.println(nouvelle_grille);
     }
     
 }
