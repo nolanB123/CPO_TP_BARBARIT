@@ -127,8 +127,8 @@ public class GrilleDeJeu {
      *Active toutes les cellules de la diagonale montante
      */
     public void activerDiagonaleMontante(){
-        for (int i = 0; i < nbLignes; i++) {
-                    matriceCellules[i][nbLignes - i].activerCellule();
+        for (int i = 0; i < Math.min(nbLignes,nbColonnes); i++) {
+                    matriceCellules[i][nbColonnes-1-i].activerCellule();
                 }
     }
     
